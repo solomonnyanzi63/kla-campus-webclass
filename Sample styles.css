@@ -1,9 +1,30 @@
-body{
+body {
     background-color: bisque;
 }
-main section{
+main section {
     border: 2px solid brown;
     padding: 10px;
     margin: 10px;
+
+}
+.section one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section-one>article.hover{
+    background-color: aquamarine;
+    width: 80;
+    color: beige;
+
+}
+
+.section-one>article{
+    background-color: aquamarine;
+    width: 80;
+}
+.main-content {
+    display: flex;
+    flex-direction: row;
 
 }
