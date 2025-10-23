@@ -12,7 +12,7 @@ main section {
     flex-direction: column;
     justify-content: space-around;
 }
-.section-one>article.hover{
+.section-one>article:hover{
     background-color: aquamarine;
     width: 80;
     color: beige;
@@ -27,4 +27,15 @@ main section {
     display: flex;
     flex-direction: row;
 
+}
+@media screen and (max-width:800px){
+    .main-content{
+        background-color: blueviolet;
+        color: black;
+    }
+} 
+.section-one{
+    width: 100%;
+}
+    
 }
